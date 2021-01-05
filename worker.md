@@ -38,11 +38,11 @@ sudo apt-get update
 sudo apt-get install bitcoind
 
 -----------------------------------------
-
+```
 mkdir ~/.bitcoin/
 cd ~/.bitcoin/
 nano bitcoin.conf
-
+```
 aşağıdakini yapıştır
 
 -----------------------------------------------
