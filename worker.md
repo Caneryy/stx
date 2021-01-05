@@ -154,6 +154,8 @@ CTRL + O, ENTER, CTRL + X yaparak kaydet ve çık.
 
 cd ~/stacks-blockchain/target/release
 
+tmux new -s session2
+
 ./stacks-node start --config=/home/testnet/stacks-blockchain/testnet/stacks-node/conf/testnet-miner-conf.toml
 
 -----------------------------------------------
