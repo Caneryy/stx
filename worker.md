@@ -132,6 +132,8 @@ username = "değiştirYUKARDA YAZDIĞIN USERNAME"
 password = "değiştirYUKARDA BELIRLEDIĞIN PASSWORD"
 rpc_port = 18332
 peer_port = 18333
+burnchain_op_tx_fee = 11000
+burn_fee_cap = 20000
 
 [[ustx_balance]]
 address = "STB44HYPYAT2BB2QE513NSP81HTMYWBJP02HPGK6"
