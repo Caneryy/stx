@@ -116,7 +116,7 @@ nano testnet-miner-conf.toml
 aşağıdaki kısmı içine yapıştır.
 
 -----------------------------------------------
-`
+```
 [node]
 rpc_bind = "0.0.0.0:20443"
 p2p_bind = "0.0.0.0:20444"
@@ -145,7 +145,7 @@ amount = 10000000000000000
 [[ustx_balance]]
 address = "STRYYQQ9M8KAF4NS7WNZQYY59X93XEKR31JP64CP"
 amount = 10000000000000000
-`
+```
 -----------------------------------------------
 
 CTRL + O, ENTER, CTRL + X yaparak kaydet ve çık.
