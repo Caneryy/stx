@@ -46,7 +46,7 @@ nano bitcoin.conf
 aşağıdakini yapıştır
 
 -----------------------------------------------
-
+```
 server=1
 rpcuser=değiştirUSERNAME
 rpcpassword=değiştirPASSWORD
@@ -64,7 +64,7 @@ rpcport=18332
 rpcallowip=0.0.0.0/0
 rpcallowip=::/0
 rpcallowip=127.0.0.1
-
+```
 -------------------------------------------------
 
 CTRL + O, ENTER, CTRL + X yaparak kaydet ve çık.
@@ -87,7 +87,7 @@ bu komut ile kontrol et ortalama yarım saat sürüyor.
 
 -----------------------------------------------
 
-bitcoin-cli -rpcport=18332 -rpcuser=değiştirUSERNAME -rpcpassword=değiştirPASSWORD importaddress değiştirOLUŞTURDUĞUNBTCADRESI
+bitcoin-cli -rpcport=18332 -rpcuser=değiştirYUKARDAYAZDIĞINUSERNAME -rpcpassword=değiştirYUKARDAYAZDIĞINPASSWORD importaddress değiştirOLUŞTURDUĞUNBTCADRESI
 
 bu işlem 10 dakikaya kadar sürebiliyor.
 
